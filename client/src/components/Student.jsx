@@ -31,7 +31,7 @@ const Student = () => {
     e.preventDefault();
 
     console.log(files);
-    const res = await fetch('http://localhost:3001/excel',{
+    const res = await fetch('https://vignancalendar.herokuapp.com/excel',{
         method:'POST',
         headers: {
              'Content-Type' : 'application/json'

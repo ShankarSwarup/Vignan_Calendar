@@ -10,7 +10,7 @@ import axios from 'axios'
 const EventCal = () => {
             const [data,setdata] = useState([{}]);
             useEffect(()=>{
-              axios.get('http://localhost:3001/cal')
+              axios.get('https://vignancalendar.herokuapp.com/cal')
               .then((res)=>{
                 //  console.log(res.data);
                  setdata(res.data);

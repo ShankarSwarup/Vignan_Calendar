@@ -8,7 +8,7 @@ const Event = () => {
   const handlesubmit = async(e) => {
     e.preventDefault();
 
-    const res = await fetch('http://localhost:3001/event',{
+    const res = await fetch('https://vignancalendar.herokuapp.com/event',{
             method:'POST',
             headers: {
                  'Content-Type' : 'application/json'

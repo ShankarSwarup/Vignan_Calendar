@@ -24,7 +24,7 @@ const Form1 = () => {
 
         // console.log(reg,pass,password);
 
-        const res = await fetch('http://localhost:3001/passchange',{
+        const res = await fetch('https://vignancalendar.herokuapp.com/passchange',{
             method:'POST',
             headers: {
                  'Content-Type' : 'application/json'
@@ -53,7 +53,7 @@ const Form1 = () => {
 
         // console.log(lreg,lpassword);
 
-        const res = await fetch('http://localhost:3001/stafflogin',{
+        const res = await fetch('https://vignancalendar.herokuapp.com/stafflogin',{
             method:'POST',
             headers: {
                  'Content-Type' : 'application/json'

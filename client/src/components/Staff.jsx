@@ -31,7 +31,7 @@ const Staff = () => {
     e.preventDefault();
 
     console.log(files);
-    const res = await fetch('http://localhost:3001/staff',{
+    const res = await fetch('https://vignancalendar.herokuapp.com/staff',{
         method:'POST',
         headers: {
              'Content-Type' : 'application/json'
