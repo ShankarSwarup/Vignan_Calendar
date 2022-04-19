@@ -88,7 +88,7 @@ const Form1 = () => {
                         <input type="text" value={lreg} onChange={event => setlreg(event.target.value)} placeholder="Teacher id" id="Email"/>
                         <input type="text" value={lpassword} onChange={event => setlpassword(String(event.target.value))} placeholder="Password" id="Password"/>
                         <input type="submit" id="signin" value='Sign in'/>
-                        <p className="signup">Don't have an account ?<a  onClick={toggleForm1}>Sign Up</a></p>
+                        <p className="signup">Do you want to change the password ?<a  onClick={toggleForm1}>Change Password</a></p>
                     </form>
                 </div>
             </div>
